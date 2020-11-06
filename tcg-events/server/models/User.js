@@ -7,17 +7,26 @@ const UserSchema = new Schema({
     required: true,
   },
   surname: {
-    type: String,
-    required: true,
+    type: String, 
+    required: true
   },
   email: {
     type: String,
     required: true,
   },
+  eventName: {
+    type: String,
+    required: true
+  },
+  dietRequirements: {
+    type: String,
+    required: true,
+  },
   date: {
-    type: Date, 
-    default: Date.now
+    type: Date,
+    default: Date.now,
   }
+  
 });
 
 module.exports = User = mongoose.model('User ', UserSchema)

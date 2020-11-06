@@ -40,6 +40,8 @@ const appRoute = (app) => {
         name: req.body.name,
         surname: req.body.surname,
         email: req.body.email,
+        eventName: req.body.eventName,
+        dietRequirements: req.body.dietRequirements,
       });
       newUser.save();
       res.json(newUser);
