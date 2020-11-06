@@ -27,7 +27,7 @@ function RegisterForm() {
         <medium>Please let us know if you will be able to make it.</medium>
         <br />
         <br />
-        <label for='name'> Name</label>
+        <label for="name"> Name</label>
         <input
           type="text"
           onChange={handleChange}
@@ -37,6 +37,7 @@ function RegisterForm() {
         />
         <br />
         <br />
+        <label for="surname">Surname</label>
         <input
           type="text"
           onChange={handleChange}
@@ -46,6 +47,7 @@ function RegisterForm() {
         />
         <br />
         <br />
+        <label for="email"> Email</label>
         <input
           type="email"
           onChange={handleChange}
@@ -55,6 +57,7 @@ function RegisterForm() {
         />
         <br />
         <br />
+        <label for="eventName"> eventName</label>
         <input
           type="text"
           name="eventName"
@@ -64,6 +67,7 @@ function RegisterForm() {
         />
         <br />
         <br />
+        <label for="dietRequirement">Dietary Requirements</label>
         <textarea
           type="text"
           onChange={handleChange}
